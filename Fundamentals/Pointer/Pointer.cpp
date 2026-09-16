@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 int main()
+// (&) before the value == Address of value
+// (*)before the pointer == Value of addess
 {
     int num = 100;
     int *ptr = &num;
